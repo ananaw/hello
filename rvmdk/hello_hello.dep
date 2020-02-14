@@ -1,0 +1,34 @@
+Dependencies for Project 'hello', Target 'hello': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\hello.c)(0x5E460BF7)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\.. --c99-I.\RTE\_hello-IC:\Users\AW\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\AW\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1-o .\rvmdk\hello.o --omf_browse .\rvmdk\hello.crf --depend .\rvmdk\hello.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9BB318)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9BB318)
+I (..\..\..\..\inc/hw_memmap.h)(0x5E3CDA9E)
+I (..\..\..\..\inc/hw_types.h)(0x5E3CDA9E)
+I (..\..\..\..\driverlib/debug.h)(0x5E3CDA9C)
+I (..\..\..\..\driverlib/fpu.h)(0x5E3CDA9C)
+I (..\..\..\..\driverlib/gpio.h)(0x5E3CDA9C)
+I (..\..\..\..\driverlib/pin_map.h)(0x5E3CDA9C)
+I (..\..\..\..\driverlib/rom.h)(0x5E3CDA9C)
+I (..\..\..\..\driverlib/sysctl.h)(0x5E3CDA9C)
+I (..\..\..\..\driverlib/uart.h)(0x5E3CDA9C)
+I (..\..\..\..\utils/uartstdio.h)(0x5E3CDAA0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9BB31A)
+F (.\startup_rvmdk.S)(0x5E3CDA9C)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_hello-IC:\Users\AW\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\AW\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1"-o .\rvmdk\startup_rvmdk.o --depend .\rvmdk\startup_rvmdk.d)
+F (..\..\..\..\utils\uartstdio.c)(0x5E3CDAA0)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\.. --c99-I.\RTE\_hello-IC:\Users\AW\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\AW\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1-o .\rvmdk\uartstdio.o --omf_browse .\rvmdk\uartstdio.crf --depend .\rvmdk\uartstdio.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9BB318)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9BB318)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9BB31A)
+I (..\..\..\..\inc/hw_ints.h)(0x5E3CDA9E)
+I (..\..\..\..\inc/hw_memmap.h)(0x5E3CDA9E)
+I (..\..\..\..\inc/hw_types.h)(0x5E3CDA9E)
+I (..\..\..\..\inc/hw_uart.h)(0x5E3CDA9E)
+I (..\..\..\..\driverlib/debug.h)(0x5E3CDA9C)
+I (..\..\..\..\driverlib/interrupt.h)(0x5E3CDA9C)
+I (..\..\..\..\driverlib/rom.h)(0x5E3CDA9C)
+I (..\..\..\..\driverlib/rom_map.h)(0x5E3CDA9C)
+I (..\..\..\..\driverlib/sysctl.h)(0x5E3CDA9C)
+I (..\..\..\..\driverlib/uart.h)(0x5E3CDA9C)
+I (..\..\..\..\utils/uartstdio.h)(0x5E3CDAA0)
+F (..\..\..\..\driverlib\rvmdk\driverlib.lib)(0x5E3CDA9C)()
+F (.\readme.txt)(0x5E3CDA9C)()
